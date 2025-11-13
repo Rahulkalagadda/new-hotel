@@ -60,3 +60,4 @@ The application comes pre-seeded with sample users:
 *   **Admin:** `admin@lodgify.lite` / `adminpassword`
 *   **Owner:** `alice@example.com` / `password`
 *   **Guest:** `bob@example.com` / `password`
+# new-hotel
