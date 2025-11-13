@@ -23,12 +23,16 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: '#FD7792',
+          DEFAULT: '#137fec',
           light: '#FFAC8E',
           dark: '#3F4D71',
           accent: '#55AE95',
+          foreground: 'hsl(var(--primary-foreground))',
         },
-        background: 'hsl(var(--background))',
+        background: {
+          DEFAULT: '#f6f7f8',
+          dark: '#101922',
+        },
         foreground: 'hsl(var(--foreground))',
         card: {
           DEFAULT: 'hsl(var(--card))',
@@ -37,10 +41,6 @@ export default {
         popover: {
           DEFAULT: 'hsl(var(--popover))',
           foreground: 'hsl(var(--popover-foreground))',
-        },
-        primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
@@ -79,11 +79,23 @@ export default {
           ring: 'hsl(var(--sidebar-ring))',
         },
       },
+      fontFamily: {
+        sans: ['var(--font-inter)', 'var(--font-pt-sans)', 'sans-serif'],
+        headline: ['var(--font-playfair-display)', 'serif'],
+        code: ['monospace'],
+        display: ["Inter", "sans-serif"]
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+</replace_in_file>
+<task_progress>
+- [x] Replace UI code with provided HTML structure in src/app/admin/buses/page.tsx
+- [x] Add global Tailwind CSS configuration and styles to src/app/layout.tsx
+- [x] Update tailwind.config.ts with new theme settings
+- [ ] Verify changes
       keyframes: {
         'accordion-down': {
           from: {
