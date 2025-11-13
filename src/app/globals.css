@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 34% 34%;
+    --card: 24 100% 96%;
+    --card-foreground: 222 34% 34%;
+    --popover: 24 100% 96%;
+    --popover-foreground: 222 34% 34%;
+    --primary: 343 97% 73%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 19 100% 78%;
+    --secondary-foreground: 222 34% 34%;
+    --muted: 163 37% 51%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 163 37% 51%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 343 97% 73%;
+    --input: 343 97% 73%;
+    --ring: 343 97% 73%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    /* Base dark theme colors */
+    --background: 222 34% 18%;
+    --foreground: 24 100% 96%;
+    
+    /* Card and surface colors */
+    --card: 222 34% 22%;
+    --card-foreground: 24 100% 96%;
+    --card-hover: 222 34% 25%;
+    
+    /* Popover and overlay colors */
+    --popover: 222 34% 20%;
+    --popover-foreground: 24 100% 96%;
+    
+    /* Primary colors - using the peach as primary in dark mode */
+    --primary: 19 100% 78%;
+    --primary-foreground: 222 34% 18%;
+    --primary-hover: 19 100% 82%;
+    
+    /* Secondary colors - using pink with adjusted saturation */
+    --secondary: 343 85% 75%;
+    --secondary-foreground: 222 34% 18%;
+    --secondary-hover: 343 85% 80%;
+    
+    /* Accent colors - teal with adjusted brightness */
+    --accent: 163 37% 55%;
+    --accent-foreground: 24 100% 96%;
+    --accent-hover: 163 37% 60%;
+    
+    /* Muted and subtle colors */
+    --muted: 222 34% 25%;
+    --muted-foreground: 24 100% 88%;
+    
+    /* Destructive and warning colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 24 100% 96%;
+    
+    /* Border and input colors */
+    --border: 222 34% 28%;
+    --input: 222 34% 28%;
+    --ring: 19 100% 78%;
+    
+    /* Additional colors for gradients and overlays */
+    --gradient-start: 222 34% 22%;
+    --gradient-end: 222 34% 28%;
+    --overlay: 222 34% 15% / 0.8;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}

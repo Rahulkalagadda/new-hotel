@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="100%" height="100%" fill="#f0f6ff"/>
+  <rect x="40" y="40" width="1120" height="140" rx="12" fill="#1e90ff"/>
+  <text x="80" y="100" font-family="Arial" font-size="28" fill="white">Bus Ticket Booking — Search</text>
+  <rect x="40" y="220" width="1120" height="320" rx="8" fill="#ffffff" stroke="#e6eefc"/>
+  <text x="80" y="270" font-family="Arial" font-size="18" fill="#334155">From: Mumbai</text>
+  <text x="80" y="300" font-family="Arial" font-size="18" fill="#334155">To: Basti</text>
+  <text x="80" y="330" font-family="Arial" font-size="18" fill="#334155">Travel Date: Nov 11, 2025</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#f3f7fb"/>
+  <rect x="40" y="40" width="1120" height="120" rx="10" fill="#2563eb"/>
+  <text x="80" y="110" font-family="Arial" font-size="28" fill="white">Review your Booking</text>
+  <rect x="60" y="200" width="1080" height="520" rx="10" fill="#ffffff" stroke="#e6eefc"/>
+  <text x="80" y="260" font-family="Arial" font-size="18" fill="#0f172a">Sunil Tour and Travels — Seats Selected: 2</text>
+  <text x="80" y="300" font-family="Arial" font-size="16" fill="#334155">Boarding Point: Kaliyun Bypass Vatika Hotel</text>
+  <rect x="80" y="660" width="1040" height="40" rx="6" fill="#ff7a18"/>
+  <text x="540" y="688" font-family="Arial" font-size="16" fill="#ffffff">Pay ₹ 2210</text>
+</svg>
